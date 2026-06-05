@@ -1,0 +1,84 @@
+{
+  "metrics": {
+    "train_mse": 0.1269085178977421,
+    "train_rmse": 0.3562422180170987,
+    "train_mae": 0.25194341597276765,
+    "train_r2": 0.9044318692279197,
+    "test_mse": 0.230171291696664,
+    "test_rmse": 0.4797617030325201,
+    "test_mae": 0.32134506902160836,
+    "test_r2": 0.828994462041897,
+    "training_duration_sec": 10.04,
+    "n_estimators": 200,
+    "max_depth": 5,
+    "feature_names": [
+      "MedInc",
+      "HouseAge",
+      "AveRooms",
+      "AveBedrms",
+      "Population",
+      "AveOccup",
+      "Latitude",
+      "Longitude"
+    ]
+  },
+  "stats": {
+    "feature_means": {
+      "MedInc": 3.8704522589631787,
+      "HouseAge": 28.657703488372093,
+      "AveRooms": 5.41642546582672,
+      "AveBedrms": 1.0940963879965446,
+      "Population": 1421.8940164728683,
+      "AveOccup": 3.078748881754598,
+      "Latitude": 35.62509387112403,
+      "Longitude": -119.5651253633721
+    },
+    "feature_stds": {
+      "MedInc": 1.8962695972393573,
+      "HouseAge": 12.590336981741503,
+      "AveRooms": 2.2811906073457564,
+      "AveBedrms": 0.4473934846001812,
+      "Population": 1109.2469951651944,
+      "AveOccup": 10.93403872445993,
+      "Latitude": 2.132973433498221,
+      "Longitude": 2.0005258520814806
+    },
+    "feature_mins": {
+      "MedInc": 0.4999,
+      "HouseAge": 1.0,
+      "AveRooms": 0.8461538461538461,
+      "AveBedrms": 0.3333333333333333,
+      "Population": 5.0,
+      "AveOccup": 1.0606060606060606,
+      "Latitude": 32.54,
+      "Longitude": -124.35
+    },
+    "feature_maxs": {
+      "MedInc": 15.0001,
+      "HouseAge": 52.0,
+      "AveRooms": 132.53333333333333,
+      "AveBedrms": 34.06666666666667,
+      "Population": 28566.0,
+      "AveOccup": 1243.3333333333333,
+      "Latitude": 41.95,
+      "Longitude": -114.31
+    },
+    "target_mean": 2.067733808745155,
+    "target_std": 1.1523966617431742,
+    "target_min": 0.14999,
+    "target_max": 5.00001,
+    "train_samples": 16512,
+    "test_samples": 4128
+  },
+  "feature_columns": [
+    "MedInc",
+    "HouseAge",
+    "AveRooms",
+    "AveBedrms",
+    "Population",
+    "AveOccup",
+    "Latitude",
+    "Longitude"
+  ],
+  "trained_at": "2026-06-05T10:40:26-0600"
+}
